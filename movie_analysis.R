@@ -271,7 +271,7 @@ top_10_contry_df <- df %>%
 
 top_10_country <- top_10_contry_df$Country
 
-small_df <- read_csv("model_data.csv")
+small_df <- read_csv("sub_df_model.csv")
 cleaned_data <- na.omit(small_df[c("IMDB Rating", "Country", "Genres (1st)",
                                    "Language","Person Name",
                                    "Production Companies (1st)","What did they do ?",
